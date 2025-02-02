@@ -19,3 +19,18 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+ 
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 30px !important;
+}
+
